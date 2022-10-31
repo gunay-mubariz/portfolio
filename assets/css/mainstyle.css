@@ -1,0 +1,425 @@
+@import url(./reset.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color:#000;
+    text-decoration: none;
+   
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100vh;
+    transform: scale(0);
+}
+
+.overlay-active{
+    transform: scale(1);
+}
+.fa-xmark{
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 2rem;
+}
+
+.overlay-navlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.overlay-navlinks a{
+    font-size: 3rem;
+    color: #bbb;
+}
+.overlay-navlinks a:hover{
+    color: #fff ;
+    transition: .8s ease;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 110px;
+}
+
+.navlinks a{
+    padding: 20px;
+}
+
+.fa-bars{
+    display: none;
+   
+}
+
+.introduction-sector{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7.03rem;
+}
+
+.in-left-sector{
+    padding-top:8.35rem  ;
+}
+
+.in-right-sector{
+   padding-top:5.12rem; ;
+}
+
+.in-right-sector img{
+    width: 100%;
+}
+
+.introduction-sector h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.introduction-sector span{
+    color: #FF8A56;
+}
+
+.in-left-sector small{
+    font-size: 22px;
+    font-weight: 400;
+    color:  #666666;
+}
+
+
+.in-buttons{
+    display: flex;
+    padding-top: 38px;
+}
+
+.trusting{
+   padding-top: 2rem;
+   text-align: center;
+}
+
+.trusting .assistant-organizations{
+    display: flex;
+    justify-content: center;
+}
+
+.organization{
+    padding: 35px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9.75rem;
+}
+
+.service-bottom{
+    
+    display: flex;
+    padding-top: 3.5rem;
+    padding-left: 25px;
+    
+    /* justify-content: space-between; */  
+}
+
+.service-inform{
+    padding: 70px; 
+}
+
+ .service-bottom ul{
+    list-style-type: square;
+    list-style-position: inside;
+    font-weight: 700;
+    font-size: 16px;
+} 
+
+.services small{
+    color: #FF5E69;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;  
+}
+
+.services h4{
+   font-size: 54px;
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.service-bottom h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+
+.service-bottom p{
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+
+.project-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 4rem;
+}
+.project-top button{
+    color: #fff;
+    background-color: black; 
+    width: 200px; 
+    height: 58px; 
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.project-text small{
+    color: #B16CEA;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.project-text h3{
+    font-weight: 700;
+    font-size: 54px;
+    letter-spacing: 1px;   
+}
+
+.box-sector{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 60px ;
+     gap: 20px;  
+}
+
+.box-sector .project-box{
+    width: 380px;
+    height: 380px;
+}
+
+.project-box .project-box-top{
+    width: inherit;
+    height: 251px;
+    
+}
+ .project-box .project-box-top img{
+    width: 100%;
+    height: 100%;
+} 
+.project-box .project-box-bottom{
+    height: 120px;
+    background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+
+}
+
+.project-box-bottom small{
+    color: #3C46FF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+.project-box-bottom p{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+
+
+.blogs{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #000;
+    color: #fff;
+    padding: 15rem 3.8rem;
+    margin-top:-130px;
+}
+
+.blogs a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+
+.leftside-blog small{
+    color: #FFA84B;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+
+
+.leftside-blog{
+display: flex;
+flex-direction: column;
+}
+.rightside-blog p{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 30px 0 40px 0;
+}
+
+.rightside-blog{
+    padding: 0  10rem;
+}
+
+.design{
+    border-bottom: 1px solid #666666;
+    padding: 2.5rem 2.5rem 2.5rem 0;
+}
+
+
+
+.example-text{
+    display: flex;
+    justify-content: space-between;
+}
+.extext-left small{
+    color: #FF5E69;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.extext-left h5{
+    font-size: 48px;
+    font-weight: 700;
+}
+.extext-right p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 30px;
+}
+
+.example-picture{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-picture{
+    display: flex;
+    flex-direction: column;
+}
+#photo img{
+    width: 100px;
+    
+}
+@media( max-width:768px){
+    .header{
+        padding: 20px;
+    }
+    .navlinks{
+        display: none;
+    }
+    .fa-bars{
+        display: flex;
+        cursor: pointer;
+    }
+   
+}
+
+@media(min-width:500px) and (max-width:773px){
+    .in-left-sector h1{
+        
+        font-size:2.1rem
+    }
+    .in-left-sector small{
+        font-size: 1rem;
+    }
+    .introduction-sector{
+        flex-direction: column;
+    }
+
+    .assistant-organizations .organization:nth-child(odd){
+        display: none;
+        
+    }
+}
+
+
+
+@media(max-width:1274px) and (min-width:773px){
+    .introduction-sector{
+        flex-direction: column;
+    }
+    .in-left-sector h1{
+        font: size 2.4rem;
+    }
+
+    .box-sector{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(min-width:500px) and (max-width:864px){
+    
+   
+    .services h4{
+        font-size: 16px;
+    }
+    .service-bottom{
+        flex-direction: column;
+    }
+    .service-inform{
+        padding-left: 0;
+        margin: auto 0;
+    }
+    .box-sector{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .projects h3{
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
+
+
