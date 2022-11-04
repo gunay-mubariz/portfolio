@@ -15,6 +15,9 @@ a{
     text-decoration: none;
    
 }
+button{
+    cursor: pointer;
+}
 
 .overlay{
     position: fixed;
@@ -27,7 +30,7 @@ a{
 }
 
 .overlay-active{
-    transform: scale(1);
+    transform: scale(0);
 }
 .fa-xmark{
     color: #fff;
@@ -35,6 +38,7 @@ a{
     right: 5%;
     top: 5%;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .overlay-navlinks{
@@ -137,7 +141,7 @@ header{
     padding-top: 3.5rem;
     padding-left: 25px;
     
-    /* justify-content: space-between; */  
+    
 }
 
 .service-inform{
@@ -216,12 +220,13 @@ header{
     display: flex;
     justify-content: space-between; 
     padding: 0 60px ;
-     gap: 20px;  
+   gap: 20px;  
 }
 
 .box-sector .project-box{
     width: 380px;
     height: 380px;
+   
 }
 
 .project-box .project-box-top{
@@ -259,7 +264,6 @@ header{
 
 .blogs{
     display: flex;
-    /* justify-content: space-between; */
     background-color: #000;
     color: #fff;
     padding: 15rem 3.8rem;
@@ -304,42 +308,291 @@ flex-direction: column;
 }
 
 
+.example{
+    padding-top: 9.60rem;
+    padding-left: 3rem ;
+}
+
 
 .example-text{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5rem;
 }
 .extext-left small{
     color: #FF5E69;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 4px;
+    
+    
 }
 
 .extext-left h5{
     font-size: 48px;
     font-weight: 700;
+    padding-top: 15px;
 }
 .extext-right p{
     font-size: 20px;
     font-weight: 400;
     color: #666666;
     line-height: 30px;
+    padding-top: 5px;
+    padding-right: 25px;
+    
 }
 
 .example-picture{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .right-picture{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
-#photo img{
-    width: 100px;
+
+.education-work{
+    display: flex;
+    padding: 112.5px 80px;
+   
+  
+}
+
+.education-sector{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
     
 }
+.edu-bottom h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.work-bottom h3{
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.edu-top{
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    font-size: 36px;
+}
+.edu-bottom{
+    padding-right: 3.2rem;
+    
+}
+.work-sector{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.work-top{
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    font-size: 36px;
+}
+
+.work-info{
+    display: flex;
+}
+.work-info img{
+    padding-right: 25px;
+}
+
+ .uni-top{
+    display: flex;
+    justify-content: space-between;
+}
+.uni-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.uni-bottom p{
+    padding-right: 25px;
+}
+
+.university{
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #E5E5E5;
+    padding: 17px;
+}
+.work-info{
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #E5E5E5;
+    padding: 16px;
+}
+.work-info-top{
+   
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.work-info-bottom{
+    display: flex;
+   justify-content: space-around;
+}
+
+
+.recommendation{
+   padding: 0 5rem 7rem ;
+}
+.recommendation-top h5{
+    font: size 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4353FF;
+    letter-spacing: 4px;
+    padding-bottom: 1rem;
+}
+
+.recommendation-top p{
+    font-size: 54px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-bottom: 5rem;
+}
+.recommendation-bottom{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.left-suggestion{
+    flex-basis: 45%;
+}
+
+.right-suggestion{
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;padding-left: 5rem;
+}
+
+.rightsuggestion-bottom{
+    display: flex;
+    justify-content:space-between ;
+}
+.rightsuggestion-bottom .right{
+    cursor: pointer;
+}
+
+.questions{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.questions-top h2{
+    text-align: center;
+    color: #FF8A56;
+    letter-spacing: 4px;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.questions-top p{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+}
+
+.questions a{
+    color: #fff;
+    font-size: 16px;
+    padding-right:30px;
+}
+.questions-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest{
+    border-bottom: 1px solid #E5E5E54D;
+    padding: 40px;
+    display: flex; 
+    justify-content:space-between
+}
+
+.questions-left{
+    margin-left: 70px;
+}
+.questions-right{
+    margin-right: 70px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.middle-left h4{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #666666;
+}
+.conclusion-top h3{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.conclusion-top p{
+    color: #3C46FF;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 90px;
+}
+.middle-right{
+    display: flex;
+}
+.middle-right a{
+    color: #fff;
+    padding: 15px;
+}
+
+.conclusion-middle{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.footer-links1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-links3{
+    display: flex;
+    flex-direction: column;
+}
+
+.conclusion-bottom {
+    display: flex;
+    justify-content: space-between;
+    color:#8A95AD;
+}
+
+
+
 @media( max-width:768px){
     .header{
         padding: 20px;
@@ -386,6 +639,14 @@ flex-direction: column;
         display: flex;
         flex-direction: column;
     }
+
+    .example-text{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-picture{
+        display: none;
+    }
 }
 
 @media(min-width:500px) and (max-width:864px){
@@ -415,7 +676,116 @@ flex-direction: column;
     .projects h3{
         font-size: 20px;
     }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .rightside-blog p{
+        font-size: 16px;
+    }
+    .rightside-blog small{
+        font-size: 12px;
+    }
+   
+
+    .example-text{
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .example-picture{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .middle-picture img{
+        width: 338px;
+        height: 626px;
+       
+    }
+    .rightpic-top{
+        padding-bottom: 5rem;
+    }
+
+    .education-work{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .work-top{
+        padding-top: 20px;
+    }
+    .education-sector{
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+   
+    .recommendation-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightsuggestion-bottom{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+     .left-suggestion img{
+        width: 400px;
+        height: 300px;
+     }
+     .right-suggestion{
+        padding-left: 0;
+     }
+     .recommendation-top h5{
+        text-align: center;
+     }
+    .recommendation-top p{
+        text-align: center;
+    }
+    .left{
+        padding-top: 20px;
+    }
+    .right{
+        padding-top: 10px;
+    }
+
+    .questions-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .questions-right{
+        padding-left: 100px;
+    }
+   
+   .middle-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .conclusion-middle{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer-links1{
+    padding-right: 12px;
+
+   }
+   
+   .conclusion-bottom{
+    flex-direction: column;
+    align-items: center;
+    
+   }
+   
+   .conclusion-bottom div{
+    padding-bottom: 8px;
+   }
 }
 
 
