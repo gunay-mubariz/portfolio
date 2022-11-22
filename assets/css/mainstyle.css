@@ -62,11 +62,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 110px;
+    padding: 40px 65px;
 }
 
 .navlinks a{
-    padding: 20px;
+    padding: 22px;
 }
 
 .fa-bars{
@@ -77,15 +77,15 @@ header{
 .introduction-sector{
     display: flex;
     justify-content: space-between;
-    padding: 0 7.03rem;
+    padding: 0 4.03rem;
 }
 
 .in-left-sector{
-    padding-top:8.35rem  ;
+    padding-top:6.4rem  ;
 }
 
 .in-right-sector{
-   padding-top:5.12rem; ;
+   padding-top:3.12rem ;  
 }
 
 .in-right-sector img{
@@ -114,7 +114,7 @@ header{
 }
 
 .trusting{
-   padding-top: 2rem;
+   padding-top: 5rem;
    text-align: center;
 }
 
@@ -132,20 +132,23 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 9.75rem;
+    padding-top: 7.5rem;
 }
 
 .service-bottom{
     
     display: flex;
-    padding-top: 3.5rem;
-    padding-left: 25px;
-    
+    padding-top: 5rem;
+ 
     
 }
+/* .apps{
+    padding-right: 10px !important;
+} */
 
 .service-inform{
-    padding: 70px; 
+    padding: 80px;
+    padding-right: 15px; 
 }
 
  .service-bottom ul{
@@ -276,6 +279,10 @@ header{
     font-weight: 700;
     padding-top: 35px;
 }
+.rightside-blog .design small{
+    font-size: 15px;
+    color:  rgba(255, 255, 255, 0.7);
+}
 
 
 .leftside-blog small{
@@ -310,7 +317,9 @@ flex-direction: column;
 
 .example{
     padding-top: 9.60rem;
-    padding-left: 3rem ;
+    padding-left: 2rem ;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -357,90 +366,112 @@ flex-direction: column;
 
 .education-work{
     display: flex;
-    padding: 112.5px 80px;
+    padding: 100px 50px;
    
   
 }
-
 .education-sector{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 45%;
-    
+    flex-basis: 50%;
+    padding-right: 50px;
 }
-.edu-bottom h3 {
-    font-size: 24px;
-    padding-bottom: 8px;
-}
-.work-bottom h3{
-    font-size: 24px;
-    padding-bottom: 8px;
-}
+
 
 .edu-top{
     padding-bottom: 3rem;
-    padding-left: 1rem;
+    padding-left: 0rem;
     font-size: 36px;
-}
-.edu-bottom{
-    padding-right: 3.2rem;
-    
-}
-.work-sector{
-    display: flex;
-    flex-direction: column;
-    flex:1;
 }
 .work-top{
     padding-bottom: 3rem;
-    padding-left: 1rem;
     font-size: 36px;
 }
+.work-sector{
+    flex: 1;
+   
+}
 
-.work-info{
+.university{
+    border-bottom: 1px solid  #E5E5E5;
     display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
 }
-.work-info img{
-    padding-right: 25px;
-}
-
- .uni-top{
+.uni-top{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 9px;
+}
+.uni-top h3{
+    font-weight: 700;
+    font-size: 24px;  
 }
 .uni-bottom{
     display: flex;
     justify-content: space-between;
 }
-.uni-bottom p{
-    padding-right: 25px;
-}
 
-.university{
-    padding-bottom: 10px;
-    border-bottom: 1.5px solid #E5E5E5;
-    padding: 17px;
+.uni-bottom small{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8A95AD;
+}
+.uni-bottom .metadata{
+    margin-right: 40px;
+    color: #8A95AD;
+}
+.edu-bottom h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    padding-top: 25px;
 }
 .work-info{
-    padding-bottom: 10px;
-    border-bottom: 1.5px solid #E5E5E5;
-    padding: 16px;
-}
-.work-info-top{
-   
+    border-bottom: 1px solid  #E5E5E5;
     display: flex;
-    justify-content: space-between;
-   
+    padding-bottom: 45px;
+    
+}
+.work{
+    width: 100%;
+}
+.work .metadata{
+    margin-right: 55px;
+}
+.work-info img{
+    padding-right: 25px;
+}
+.work-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.work-bottom h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    padding-top: 25px;
 }
 
+.work-info-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9px;
+}
+.work-info-top h3{
+    font-weight: 700;
+    font-size: 24px;
+}
 .work-info-bottom{
     display: flex;
-   justify-content: space-around;
+    color: #8A95AD;
+    justify-content: space-between;
 }
+
+
+
+
+
 
 
 .recommendation{
-   padding: 0 5rem 7rem ;
+   padding: 1.5rem 2.8rem 7rem ;
 }
 .recommendation-top h5{
     font: size 22px;
@@ -450,6 +481,9 @@ flex-direction: column;
     letter-spacing: 4px;
     padding-bottom: 1rem;
 }
+
+
+
 
 .recommendation-top p{
     font-size: 54px;
@@ -516,24 +550,29 @@ flex-direction: column;
 
 .interest{
     border-bottom: 1px solid #E5E5E54D;
-    padding: 40px;
+    padding: 40px 0px;
+    
     display: flex; 
     justify-content:space-between
 }
 
 .questions-left{
     margin-left: 70px;
+    flex-basis: 40%;
 }
 .questions-right{
     margin-right: 70px;
+    flex-basis: 40%;
 }
+
+
 
 footer{
     background-color: #000;
     color: #fff;
     padding-top: 160px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-right: 85px;
 }
 
 .middle-left h4{
@@ -588,89 +627,48 @@ footer{
 .conclusion-bottom {
     display: flex;
     justify-content: space-between;
+    
     color:#8A95AD;
 }
-
-
-
-@media( max-width:768px){
-    .header{
-        padding: 20px;
-    }
-    .navlinks{
-        display: none;
-    }
-    .fa-bars{
-        display: flex;
-        cursor: pointer;
-    }
-   
+.conclusion-bottom a{
+    color: #8A95AD;
+    padding-bottom: 5px;
 }
 
-@media(min-width:500px) and (max-width:773px){
-    .in-left-sector h1{
-        
-        font-size:2.1rem
-    }
-    .in-left-sector small{
-        font-size: 1rem;
-    }
-    .introduction-sector{
-        flex-direction: column;
-    }
-
-    .assistant-organizations .organization:nth-child(odd){
-        display: none;
-        
-    }
-}
-
-
-
-@media(max-width:1274px) and (min-width:773px){
-    .introduction-sector{
-        flex-direction: column;
-    }
-    .in-left-sector h1{
-        font: size 2.4rem;
-    }
-
-    .box-sector{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .example-text{
-        flex-direction: column;
-        align-items: center;
-    }
-    .middle-picture{
-        display: none;
-    }
-}
 
 @media(min-width:500px) and (max-width:864px){
     
+    .assistant-organizations{
+        margin-left: 0px;
+    }
    
     .services h4{
         font-size: 16px;
     }
     .service-bottom{
         flex-direction: column;
+        align-items: center;
     }
     .service-inform{
         padding-left: 0;
         margin: auto 0;
     }
+    .apps{
+        padding-bottom: 0px;
+        padding-left: 28px;
+    }
     .box-sector{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center;padding-left: 0px;
+        padding-right: 0px;
     }
+    
     .project-top{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px 0px 80px 0px ;
         
     }
     .projects h3{
@@ -681,7 +679,13 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
        
+    }
+    .rightside-blog{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .rightside-blog p{
@@ -689,14 +693,33 @@ footer{
     }
     .rightside-blog small{
         font-size: 12px;
+        
     }
+    .design{
+        padding-right: 0px;
+    }
+
    
+    .example{
+        padding-left: 0px;
+        padding-right: 0px;
+        align-content: center;
+    }
 
     .example-text{
         flex-direction: column;
         align-items: center;
+       
     }
-    
+    .extext-right{
+        padding:0;
+        font-size: 20px;
+
+    }
+    .extext-right p{
+        font-size: 16px;
+        padding: 10px 17px 0px;
+    }
     .example-picture{
         flex-direction: column;
         align-items: center;
@@ -704,26 +727,49 @@ footer{
     }
     .middle-picture img{
         width: 338px;
-        height: 626px;
+        height: 455px;
        
     }
+   
     .rightpic-top{
-        padding-bottom: 5rem;
+        padding-bottom: 1.5rem;
     }
 
     .education-work{
         flex-direction: column;
         align-items: center;
+        padding: 0px;
+        padding-top: 45px;
+        padding-bottom: 45px;
         
     }
     .work-top{
-        padding-top: 20px;
+        padding-top: 50px;
     }
+    
     .education-sector{
+       
         padding-left: 15px;
         padding-bottom: 20px;
+        
     }
    
+    .recommendation{
+        padding: 0px;
+        padding-top: 45px;
+        
+    }
+    .right-suggestion{
+        align-items: center;
+    }
+    .quotation{
+        padding-right: 50px;
+    }
+
+    .rightsuggestion-top p{
+        font-size: 28px !important;
+        padding-top: 25px;
+    }
     .recommendation-bottom{
         display: flex;
         flex-direction: column;
@@ -760,23 +806,42 @@ footer{
         align-items: center;
     }
     .questions-right{
-        padding-left: 100px;
+        padding-left: 111px;
     }
-   
+    .questions-right {
+        margin-right: 42px;
+    }
    .middle-right{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
    }
    .conclusion-middle{
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
+   
+   }
+   .conclusion-top h3{
+    font-size: 30px;
+   }
+
+   footer{
+    padding-left: 0px;
+    padding-right: 0px;
    }
    .footer-links1{
     padding-right: 12px;
 
    }
-   
+   .conclusion-top{
+    padding-left: 15px;
+   }
+    .conclusion-top p{
+        font-size: 30px;
+    }
+
    .conclusion-bottom{
     flex-direction: column;
     align-items: center;
@@ -788,6 +853,64 @@ footer{
    }
 }
 
+@media(min-width:500px) and (max-width:768px){
+
+    .in-left-sector h1{
+        
+        font-size:2.1rem
+    }
+    .in-left-sector small{
+        font-size: 1rem;
+    }
+    .introduction-sector{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .assistant-organizations .organization:nth-child(odd){
+        display: none;
+        
+    }
+}
+
+
+
+@media(max-width:1274px) and (min-width:773px){
+    .introduction-sector{
+        flex-direction: column;
+    }
+    .in-left-sector h1{
+        font: size 2.4rem;
+    }
+
+    .box-sector{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .example-text{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-picture{
+        display: none;
+    }
+}
+
+@media( max-width:768px){
+    .header{
+        padding: 20px;
+    }
+    .navlinks{
+        display: none;
+    }
+    .fa-bars{
+        display: flex;
+        cursor: pointer;
+    }
+   
+}
 
 
 
